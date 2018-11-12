@@ -14,13 +14,13 @@ typedef struct rectangle{
 			return l < T.l;
 		if(w != T.w)
 			return w < T.w;
-	}
+	};
 	bool operator==(const rectangle &T) 
 	{
 		if(num == T.num && l == T.l && w == T.w)
 			return true;
 		return false;
-	}
+	};
 }rectangle; 
 
 int main(int argc, char** argv) {
